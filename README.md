@@ -1,4 +1,5 @@
 # My vim config
 
 usage:
-	1. ./configure
+	1. ./init
+	2. ./configure
