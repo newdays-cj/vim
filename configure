@@ -6,7 +6,7 @@ if [ -e ~/.vim ]; then
 	mv ~/.vim ~/.vim-backup
 fi
 
-if [ -e !/.vimrc ]; then
+if [ -e ~/.vimrc ]; then
 	rm -rf ~/.vim-backup
 	mv ~/.vimrc ~/.vimrc-backup
 fi
