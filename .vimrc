@@ -14,6 +14,8 @@ Plugin 'VundleVim/Vundle.vim'
 " 高亮单词 "
 Plugin 'lfv89/vim-interestingwords'
 
+Plugin 'Yggdroot/LeaderF'
+
 "每个插件都应该在这一行之前
 call vundle#end()            " 这是必需的
 filetype plugin indent on    " 这是必需的

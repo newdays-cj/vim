@@ -15,3 +15,7 @@ ln -s $DIR ~/.vim
 ln -s $DIR/.vimrc ~/.vimrc
 
 vim +":PluginInstall" +q! +q!
+
+echo -e "\033[31m Please check vim is better than 8.2 and support python \033[0m"
+echo -e "\033[31m Please check gtags has been install \033[0m"
+
