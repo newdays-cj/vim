@@ -37,6 +37,10 @@ let mapleader="\<space>"
 set tags=tags
 map <C-]> g]
 
+noremap nt <Esc>:tabnew
+noremap tn <Esc>:tabn<CR>
+noremap tp <Esc>:tabp<CR>
+
 " Leaderf configuration "
 " https://github.com/Yggdroot/LeaderF "
 " do not show the help in nomal mode "
