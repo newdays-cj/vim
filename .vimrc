@@ -33,6 +33,7 @@ set wrap			" 自动折行
 set showmatch			" 高亮匹配的括号
 set hlsearch			" 高亮匹配结果
 set noswapfile			" 不创建swap文件
+set backspace=indent,eol,start  " 修复退个建的BUG
 
 let mapleader="\<space>"
 
