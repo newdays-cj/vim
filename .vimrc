@@ -1,6 +1,9 @@
 set nocompatible              " 这是必需的
 filetype off                  " 这是必需的
 
+set background=dark
+colorscheme molokai
+
 " 在此设置运行时路径
 set rtp+=~/.vim/bundle/Vundle.vim
 " vundle初始化
