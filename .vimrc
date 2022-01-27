@@ -1,6 +1,7 @@
 set nocompatible              " 这是必需的
 filetype off                  " 这是必需的
 
+set t_Co=256
 set background=dark
 colorscheme molokai
 
@@ -18,6 +19,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'lfv89/vim-interestingwords'
 
 Plugin 'Yggdroot/LeaderF'
+
+Plugin 'vim-airline'
 
 "每个插件都应该在这一行之前
 call vundle#end()            " 这是必需的
@@ -64,7 +67,7 @@ noremap <leader>fm :<C-U><C-R>=printf("Leaderf mru %s","")<CR><CR>
 noremap <leader>ft :<C-U><C-R>=printf("Leaderf bufTag %s","")<CR><CR>
 noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s","")<CR><CR>
 
-" noremap <C-B> :<C-U><C-R>=printf("Leaderf! rg --current-buffer -e %s ", expand("<cword>"))<CR>
+noremap <leader>gw :<C-U><C-R>=printf("Leaderf! rg --current-buffer -e %s ", expand("<cword>"))<CR>
 " noremap <C-F> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
 " search visually selected text literally
 xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F -e %s ", leaderf#Rg#visual())<CR>
