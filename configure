@@ -1,13 +1,12 @@
 #!/bin/bash
 DIR=$(dirname $(readlink -f $0))
 
+rm -rf rm ~/.vim-backup
 if [ -e ~/.vim ]; then
-	rm -rf rm ~/.vim-backup
 	mv ~/.vim ~/.vim-backup
 fi
 
 if [ -e ~/.vimrc ]; then
-	rm -rf ~/.vim-backup
 	mv ~/.vimrc ~/.vimrc-backup
 fi
 
