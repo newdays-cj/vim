@@ -2,6 +2,7 @@ set nocompatible              " 这是必需的
 filetype off                  " 这是必需的
 
 set t_Co=256
+set laststatus=2
 set background=dark
 colorscheme molokai
 
